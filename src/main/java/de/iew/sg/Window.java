@@ -12,7 +12,7 @@ import java.awt.*;
 public class Window extends JFrame {
 
     public Window() throws HeadlessException {
-        setTitle("Simple Java Game");
+        setTitle("Simple Puzzle game");
         setLayout(new GridBagLayout());
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
